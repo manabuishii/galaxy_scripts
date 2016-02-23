@@ -1,6 +1,12 @@
 # galaxy_scripts
 Galaxy Related Scripts
 
+## version
+
+```
+0.1.0
+```
+
 # prerequisite
 
 ```
