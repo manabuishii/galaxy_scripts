@@ -90,11 +90,7 @@ Python 2.7.11 (default, Feb 17 2016, 15:35:52)
 Type "help", "copyright", "credits" or "license" for more information.
 >>> gi
 GalaxyInstance object for Galaxy at YOURGALAXYHOST
->>> gi.get_histories(name='20160223_Rs01_Pe_e')
-Traceback (most recent call last):
- File "<stdin>", line 1, in <module>
-AttributeError: 'GalaxyInstance' object has no attribute 'get_histories'
->>> gi.histories.get_histories(name='20160223_Rs01_Pe_e')
-[{u'name': u'20160223_Rs01_Pe_e', u'tags': [], u'deleted': False, u'purged': False, u'id': u'2a56795cad3c7db3', u'url': u'/api/histories/2a56795cad3c7db3', u'published': False, u'model_class': u'History', u'annotation': None}]
+>>> gi.histories.get_histories(name='your_own_history')
+[{u'name': u'your_own_history', u'tags': [], u'deleted': False, u'purged': False, u'id': u'2a56795cad3c7db3', u'url': u'/api/histories/2a56795cad3c7db3', u'published': False, u'model_class': u'History', u'annotation': None}]
 >>>
 ```
