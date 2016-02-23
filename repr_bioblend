@@ -1,0 +1,3 @@
+#!/bin/bash
+
+DOCKER_BIOBLEND_GALAXY_HOST=$1 DOCKER_BIOBLEND_GALAXY_API_KEY=$2 PYTHONSTARTUP=/usr/local/bin/pythonstartup_bioblend.py python
