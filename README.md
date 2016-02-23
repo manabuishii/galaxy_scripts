@@ -1,6 +1,10 @@
 # galaxy_scripts
 Galaxy Related Scripts
 
+Check history outside the galaxy or etc ...
+
+Access via bioblend.
+
 ## version
 
 ```
@@ -13,12 +17,19 @@ Galaxy Related Scripts
 bioblend
 ```
 
-# history
+## API reference
+
+[API documentation for interacting with Galaxy — BioBlend 0.7.0 documentation](http://bioblend.readthedocs.org/en/latest/api_docs/galaxy/all.html)
+
+# History
 
 Get histories from Galaxy.
 
 Default output is JSON.
 
+## reference
+
+[API documentation for interacting with Galaxy — BioBlend 0.7.0 documentation](http://bioblend.readthedocs.org/en/latest/api_docs/galaxy/all.html#module-bioblend.galaxy.histories)
 ## Get histories
 
 ```
@@ -81,7 +92,6 @@ result
 
 ## REPR
 
-TODO: write
 
 ```
 docker $(docker-machine config docker1.10) run --rm -ti manabuishii/galaxy_scripts:0.1.1 repr_bioblend YOURGALAXYHOST YOURAPIKEY
