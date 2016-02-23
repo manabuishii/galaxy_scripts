@@ -32,3 +32,13 @@ TSV output (currently some keys)
 ```
 python galaxy_history_detail.py YOURGALAXYHOST YOURAPIKEY HISTORY_ID --tsv
 ```
+
+
+# Docker
+
+TODO: write
+
+
+## REPR
+
+TODO: write
